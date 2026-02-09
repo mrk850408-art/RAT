@@ -4,7 +4,7 @@ from colorama import Fore, Back, Style
 
 def socket_create():
     global host, port, s
-    host = "127.0.0.1"
+    host = "Enter your IP"
     port = 9999
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
